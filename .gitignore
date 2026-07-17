@@ -1,0 +1,19 @@
+# Power BI cache files
+*.pbix.autosave
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Python cache (if used later)
+__pycache__/
+
+# Log files
+*.log
