@@ -542,3 +542,167 @@ DATATABLE(
     }
 )
 ```
+
+
+
+# Dynamic Titles & Formatting Measures
+
+This section contains the DAX measures used for dynamic visual titles and conditional formatting.
+
+---
+
+## Revenue Trend Title
+
+**Description**
+
+Creates a dynamic title for the Revenue Trend chart based on the selected Year and Customer State.
+
+```DAX
+Revenue Trend Title =
+"Revenue Trend | " &
+SELECTEDVALUE(dim_date[Year], "All Years") &
+" | " &
+SELECTEDVALUE(dim_customer[customer_state], "All States")
+```
+
+---
+
+## Running Revenue Trend Title
+
+**Description**
+
+Creates a dynamic title for the Running Revenue chart based on the selected Year and Customer State.
+
+```DAX
+Running Revenue Trend Title =
+"Running Revenue | " &
+SELECTEDVALUE(dim_date[Year], "All Years") &
+" | " &
+SELECTEDVALUE(dim_customer[customer_state], "All States")
+```
+
+---
+
+## MoM Growth Title
+
+**Description**
+
+Creates a dynamic title for the Month-over-Month Growth chart based on the selected Year.
+
+```DAX
+MoM Title =
+"Month-over-Month Growth | " &
+SELECTEDVALUE(dim_date[Year], "All Years")
+```
+
+---
+
+## Revenue by Category Title
+
+**Description**
+
+Creates a dynamic title for the Revenue by Category chart based on the selected Year and Customer State.
+
+```DAX
+Revenue by Category Title =
+"Revenue by Category | " &
+SELECTEDVALUE(dim_date[Year], "All Years") &
+" | " &
+SELECTEDVALUE(dim_customer[customer_state], "All States")
+```
+
+---
+
+## Revenue by Customer State Title
+
+**Description**
+
+Creates a dynamic title for the Revenue by Customer State chart based on the selected Year and Product Category.
+
+```DAX
+Revenue by Customer State Title =
+"Revenue by Customer State | " &
+SELECTEDVALUE(dim_date[Year], "All Years") &
+" | " &
+SELECTEDVALUE(dim_product[product_category_name_english], "All Categories")
+```
+
+---
+
+## Top 10 Products Title
+
+**Description**
+
+Creates a dynamic title for the Top 10 Products chart based on the selected Year and Customer State.
+
+```DAX
+Top 10 Products Title =
+"Top 10 Products | " &
+SELECTEDVALUE(dim_date[Year], "All Years") &
+" | " &
+SELECTEDVALUE(dim_customer[customer_state], "All States")
+```
+
+---
+
+## Top 10 Seller Title
+
+**Description**
+
+Creates a dynamic title for the Top 10 Sellers chart based on the selected Year and Seller State.
+
+```DAX
+Top 10 Seller Title =
+"Top 10 Sellers | " &
+SELECTEDVALUE(dim_date[Year], "All Years") &
+" | " &
+SELECTEDVALUE(dim_seller[seller_state], "All States")
+```
+
+---
+
+## Total Orders Title
+
+**Description**
+
+Creates a dynamic title displaying the current total number of orders.
+
+```DAX
+Total Orders Title =
+"Total Orders (" &
+FORMAT([Total Orders], "#,##0") &
+")"
+```
+
+---
+
+## MoM Growth Color
+
+**Description**
+
+Returns a color code for conditional formatting in the Month-over-Month Growth chart.
+
+- Green (`#2E7D32`) → Positive Growth
+- Red (`#D32F2F`) → Negative Growth
+
+```DAX
+MoM Growth Color =
+IF(
+    [MoM Growth %] >= 0,
+    "#2E7D32",
+    "#D32F2F"
+)
+```
+
+---
+
+## Slicers Used
+
+The report uses the following slicers:
+
+- Year
+- Product Category
+- Customer State
+- Seller State
+
+Dynamic titles are designed to reflect the most relevant slicers for each visual rather than displaying all slicers, keeping titles concise and easy to read.
