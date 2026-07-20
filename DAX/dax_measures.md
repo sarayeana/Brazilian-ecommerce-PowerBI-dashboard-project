@@ -693,6 +693,89 @@ IF(
     "#D32F2F"
 )
 ```
+---
+
+## Top 10 Customers Title
+
+**Description**
+
+Creates a dynamic title for the Top 10 Customers chart based on the selected Product Category, Customer State, Seller State, and Year.
+
+```DAX
+Top 10 Customers Title =
+"Top 10 Customers | " &
+CONCATENATE(SELECTEDVALUE(dim_product[Product Category]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_customer[Customer State]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_seller[seller_state]), " | ") &
+SELECTEDVALUE(dim_date[Year])
+```
+
+---
+
+## Customer Details Title
+
+**Description**
+
+Creates a dynamic title for the Customer Details page based on the selected Product Category, Customer State, Seller State, and Year.
+
+```DAX
+Customer Details Title =
+"Customer Details | " &
+CONCATENATE(SELECTEDVALUE(dim_product[Product Category]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_customer[Customer State]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_seller[seller_state]), " | ") &
+SELECTEDVALUE(dim_date[Year])
+```
+
+---
+
+## Customer Segment Title
+
+**Description**
+
+Creates a dynamic title for the Revenue by Customer Segment visual based on the selected Product Category, Customer State, Seller State, and Year.
+
+```DAX
+Customer Segment Title =
+"Revenue by Customer Segment | " &
+CONCATENATE(SELECTEDVALUE(dim_product[Product Category]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_customer[Customer State]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_seller[seller_state]), " | ") &
+SELECTEDVALUE(dim_date[Year])
+```
+
+---
+
+## Customer Count by Location Title
+
+**Description**
+
+Creates a dynamic title for the Customer Count by State visual based on the selected Product Category and Year.
+
+```DAX
+Customer Count by Location Title =
+"Customer Count by State | " &
+CONCATENATE(SELECTEDVALUE(dim_product[Product Category]), " | ") &
+SELECTEDVALUE(dim_date[Year])
+```
+
+---
+
+## Customer Count Trend Title
+
+**Description**
+
+Creates a dynamic title for the Customer Count Trend chart based on the selected Product Category, Customer State, Seller State, and Year.
+
+```DAX
+Customer Count Trend Title =
+"Customer Count Trend by Month | " &
+CONCATENATE(SELECTEDVALUE(dim_product[Product Category]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_customer[Customer State]), " | ") &
+CONCATENATE(SELECTEDVALUE(dim_seller[seller_state]), " | ") &
+SELECTEDVALUE(dim_date[Year])
+```
+
 
 ---
 
