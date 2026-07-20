@@ -706,3 +706,28 @@ The report uses the following slicers:
 - Seller State
 
 Dynamic titles are designed to reflect the most relevant slicers for each visual rather than displaying all slicers, keeping titles concise and easy to read.
+
+## Average Orders Per Customer
+
+**Description**
+
+Calculates the average number of orders placed by each customer.
+
+**DAX**
+
+```DAX
+Avg Orders Per Customer =
+DIVIDE(
+    [Total Orders],
+    [Total Customers]
+)
+```
+
+**Used In**
+
+- KPI Card
+- Customer Analysis Dashboard
+
+**Format**
+
+Whole Number or Decimal (2 places), depending on your preference.
