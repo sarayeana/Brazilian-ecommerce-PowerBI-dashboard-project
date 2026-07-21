@@ -2,9 +2,9 @@
 -- Brazilian E-Commerce Database Schema
 -- =====================================================
 
-create database if not exists brazilian_ecommerce;
+create database if not exists olist;
 
-use brazilian_ecommerce;
+use olist;
 
 -- view all tables
 show tables;
