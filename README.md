@@ -312,25 +312,38 @@ The dashboard helps identify:
 
 ### Executive Overview
 
-<img src="Images/Dashboard/Executive%20Overview/Dynamic%20Title%20Overview%201.png" width="100%">
+<img src="Images/Dashboard/Executive%20Overview/Executive%20overview%201.png" width="900">
 
 ### Sales Analysis
 
 <p align="center">
-    <img src="Image/Dashboard/Sales%20Analysis/Sales%20Analysis%202018.png" width="900">
+    <img src="Images/Dashboard/Sales%20Analysis/Sales%20Analysis%20Dashboard.png" width="900">
 </p>
 
 ### Customer Analysis
 
-![Customer Analysis](Images/Customer_Analysis.png)
+<p align="center">
+    <img src="Images/Dashboard/Customer%20Analysis/Customer%20Analysis.png" width="900">
+</p>
 
+<p align="center">
+    <img src="Images/Dashboard/Customer%20Analysis/Customer%20Detail.png" width="900">
+</p>
 ### Product & Seller Analysis
 
-![Product & Seller Analysis](Images/Product_Seller_Analysis.png)
+<p align="center">
+    <img src="Images/Dashboard/Product%20&%20Seller%20Analysis/Product%20&%20Seller%20Analysis%Dashboard.png" width="900">
+</p>
 
 ### Delivery & Customer Review Analysis
 
-![Delivery & Customer Review Analysis](Images/Delivery_Review_Analysis.png)
+<p align="center">
+    <img src="Images/Dashboard/Delivery%20&%20Customer%20Review%20Analysis/Delivery%20&%20Customer%20Review.png" width="900">
+</p>
+
+<p align="center">
+    <img src="Images/Dashboard/Delivery%20&%20Customer%20Review%20Analysis/Order%20Details%20Drill%20Through.png" width="900">
+</p>
 ```
 
 ---
