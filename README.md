@@ -317,7 +317,9 @@ https://github.com/sarayeana/Brazilian-ecommerce-PowerBI-dashboard-project/tree/
 
 ### Sales Analysis
 
-![Sales Analysis](Images/Sales_Analysis.png)
+<p align="center">
+    <img src="Image/Dashboard/Sales%20Analysis/Sales%20Analysis%202018.png" width="900">
+</p>
 
 ### Customer Analysis
 
