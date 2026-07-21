@@ -312,7 +312,7 @@ The dashboard helps identify:
 
 ### Executive Overview
 
-![Executive Overview](Images/Executive_Overview.png)
+![Images](Executive Overview/Executive_Overview.png)
 
 ### Sales Analysis
 
