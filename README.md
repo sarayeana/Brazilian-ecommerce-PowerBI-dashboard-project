@@ -308,20 +308,27 @@ The dashboard helps identify:
 
 ---
 
-# 📷 Dashboard Preview
+## Dashboard Preview
 
-> Add dashboard screenshots inside the **Images** folder.
+### Executive Overview
 
-Example:
+![Executive Overview](Images/Executive_Overview.png)
 
-```text
-Images/
-│
-├── Executive_Overview.png
-├── Sales_Analysis.png
-├── Customer_Analysis.png
-├── Product_Seller_Analysis.png
-└── Delivery_Review_Analysis.png
+### Sales Analysis
+
+![Sales Analysis](Images/Sales_Analysis.png)
+
+### Customer Analysis
+
+![Customer Analysis](Images/Customer_Analysis.png)
+
+### Product & Seller Analysis
+
+![Product & Seller Analysis](Images/Product_Seller_Analysis.png)
+
+### Delivery & Customer Review Analysis
+
+![Delivery & Customer Review Analysis](Images/Delivery_Review_Analysis.png)
 ```
 
 ---
