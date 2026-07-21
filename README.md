@@ -329,10 +329,10 @@ The dashboard helps identify:
 <p align="center">
     <img src="Images/Dashboard/Customer%20Analysis/Customer%20Detail.png" width="900">
 </p>
-### Product & Seller Analysis
+## Product & Seller Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Product%20&%20Seller%20Analysis/Product%20&%20Seller%20Analysis%Dashboard.png" width="900">
+    <img src="Images/Dashboard/Product&20Seller%20Analysis/Product&20Seller%20Analysis%Dashboard.png" width="900">
 </p>
 
 ### Delivery & Customer Review Analysis
