@@ -312,8 +312,7 @@ The dashboard helps identify:
 
 ### Executive Overview
 
-![Images](Executive Overview/Executive_Overview.png)
-https://github.com/sarayeana/Brazilian-ecommerce-PowerBI-dashboard-project/tree/main/Images/Dashboard/Customer%20Analysis
+<img src="Images/Dashboard/Executive%20Overview/Dynamic%20Title%20Overview%201.png" width="100%">
 
 ### Sales Analysis
 
