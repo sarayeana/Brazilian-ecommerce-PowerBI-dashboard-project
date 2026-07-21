@@ -312,38 +312,38 @@ The dashboard helps identify:
 
 ### Executive Overview
 
-<img src="Images/Dashboard/Executive%20Overview/Executive%20overview%201.png" width="900">
+<img src="Images/Dashboard/Executive%20Overview/Executive%20overview%201.png" width="100%">
 
 ### Sales Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Sales%20Analysis/Sales%20Analysis%20Dashboard.png" width="900">
+    <img src="Images/Dashboard/Sales%20Analysis/Sales%20Analysis%20Dashboard.png" width="100%">
 </p>
 
 ### Customer Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Customer%20Analysis/Customer%20Analysis.png" width="900">
+    <img src="Images/Dashboard/Customer%20Analysis/Customer%20Analysis.png" width="50%">
 </p>
 
 <p align="center">
-    <img src="Images/Dashboard/Customer%20Analysis/Customer%20Detail.png" width="900">
+    <img src="Images/Dashboard/Customer%20Analysis/Customer%20Detail.png" width="50%">
 </p>
 
 ### Product & Seller Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Product%20%26%20Seller%20Analysis/Product%20%26%20Seller%20Analysis%20Dashboard.png" width="900">
+    <img src="Images/Dashboard/Product%20%26%20Seller%20Analysis/Product%20%26%20Seller%20Analysis%20Dashboard.png" width="100%">
 </p>
 
 ### Delivery & Customer Review Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review/Delivery%20%26%20Customer%20Review.png" width="900">
+    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review/Delivery%20%26%20Customer%20Review.png" width="50%">
 </p>
 
 <p align="center">
-    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review/Order%20Details%20Drill%20Through.png" width="900">
+    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review/Order%20Details%20Drill%20Through.png" width="50%">
 </p>
 ```
 
