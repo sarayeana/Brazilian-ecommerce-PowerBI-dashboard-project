@@ -329,20 +329,21 @@ The dashboard helps identify:
 <p align="center">
     <img src="Images/Dashboard/Customer%20Analysis/Customer%20Detail.png" width="900">
 </p>
-## Product & Seller Analysis
+
+### Product & Seller Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Product&20Seller%20Analysis/Product&20Seller%20Analysis%Dashboard.png" width="900">
+    <img src="Images/Dashboard/Product%20%26%20Seller%20Analysis/Product%20%26%20Seller%20Analysis%20Dashboard.png" width="900">
 </p>
 
 ### Delivery & Customer Review Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Delivery%20&%20Customer%20Review%20Analysis/Delivery%20&%20Customer%20Review.png" width="900">
+    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review%20Analysis/Delivery%20%26%20Customer%20Review.png" width="900">
 </p>
 
 <p align="center">
-    <img src="Images/Dashboard/Delivery%20&%20Customer%20Review%20Analysis/Order%20Details%20Drill%20Through.png" width="900">
+    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review%20Analysis/Order%20Details%20Drill%20Through.png" width="900">
 </p>
 ```
 
