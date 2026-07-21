@@ -339,11 +339,11 @@ The dashboard helps identify:
 ### Delivery & Customer Review Analysis
 
 <p align="center">
-    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review%20Analysis/Delivery%20%26%20Customer%20Review.png" width="900">
+    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review/Delivery%20%26%20Customer%20Review.png" width="900">
 </p>
 
 <p align="center">
-    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review%20Analysis/Order%20Details%20Drill%20Through.png" width="900">
+    <img src="Images/Dashboard/Delivery%20%26%20Customer%20Review/Order%20Details%20Drill%20Through.png" width="900">
 </p>
 ```
 
