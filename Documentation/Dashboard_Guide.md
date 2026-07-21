@@ -601,6 +601,6 @@ Using this dashboard, stakeholders can:
 
 # Project Author
 
-**Syna**
+**Sara Yeana**
 
 Power BI • SQL • Data Analytics • Business Intelligence
